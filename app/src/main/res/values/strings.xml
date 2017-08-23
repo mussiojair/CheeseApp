@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CheeseApp</string>
+    <string name="title_activity_cheese">CheeseActivity</string>
+</resources>
