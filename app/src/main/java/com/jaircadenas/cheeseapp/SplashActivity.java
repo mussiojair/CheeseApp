@@ -20,7 +20,7 @@ public class SplashActivity extends AppCompatActivity {
         schedule.schedule(new Runnable() {
             @Override
             public void run() {
-                Intent i = new Intent( SplashActivity.this, CheeseActivity.class );
+                Intent i = new Intent( SplashActivity.this, LoginActivity.class );
                 startActivity(i);
             }
         }, 3, TimeUnit.SECONDS );
