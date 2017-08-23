@@ -171,7 +171,7 @@ public class CheeseActivity extends AppCompatActivity {
             mCameraManager = (CameraManager) getSystemService(Context.CAMERA_SERVICE);
             String[] camids = mCameraManager.getCameraIdList();
             if (camids.length > 0) {
-                mCameraId = camids[1];
+                mCameraId = camids[camids.length-1];
             }
 
             mCameraCharacteristics = mCameraManager.getCameraCharacteristics(mCameraId);
